@@ -21,5 +21,5 @@ The following is the content of scalars in Tensorboard. 'epoch_loss' is the aver
 **cross_entropy loss + without l2 loss：**
 ![image](https://github.com/mna12478/Tensorflow_mnist/raw/master/tensorboard_cross.png)
 
-##Reference
-https://github.com/caicloud/tensorflow-tutorial
+## Reference
+实战Google深度学习框架 https://github.com/caicloud/tensorflow-tutorial
