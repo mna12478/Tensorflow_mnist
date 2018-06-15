@@ -15,5 +15,8 @@ The following is the content in scalars in Tensorboard. 'epoch_loss' is the aver
 
 'layer1_scope' and 'layer2_scope' represent distribution of the weights and bias of the first and second layer, including min, max, mean and stddev. 'learning_rate' is the distribution of learning_rate in each epoch.
 
-
+**cross_entropy loss + with l2 loss：**
 ![image](https://github.com/mna12478/Tensorflow_mnist/raw/master/tensorboard_cross_l2.png)
+
+**cross_entropy loss + without l2 loss：**
+![image](https://github.com/mna12478/Tensorflow_mnist/raw/master/tensorboard_cross.png)
