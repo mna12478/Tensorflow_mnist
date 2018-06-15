@@ -11,7 +11,7 @@ The fundamental operations include:
 8. Early Stopping by either iterations or epoches.
 9. Save the model and parameters.
 
-The following is the content in scalars in Tensorboard. 'epoch_loss' is the average loss in each epoch, 'loss' includes 3 kind of losses in each iteration: cross_entropy loss, l2 loss, loss for mnist(cross_entropy loss + with/without l2 loss)
+The following is the content of scalars in Tensorboard. 'epoch_loss' is the average loss of each epoch, 'loss' includes 3 kind of losses of each iteration: cross_entropy loss, l2 loss, loss for mnist(cross_entropy loss + with/without l2 loss)
 
 'layer1_scope' and 'layer2_scope' represent distribution of the weights and bias of the first and second layer, including min, max, mean and stddev. 'learning_rate' is the distribution of learning_rate in each epoch.
 
@@ -20,3 +20,6 @@ The following is the content in scalars in Tensorboard. 'epoch_loss' is the aver
 
 **cross_entropy loss + without l2 loss：**
 ![image](https://github.com/mna12478/Tensorflow_mnist/raw/master/tensorboard_cross.png)
+
+##Reference
+https://github.com/caicloud/tensorflow-tutorial
